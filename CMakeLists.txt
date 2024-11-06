@@ -367,6 +367,8 @@ else()
 	)
 endif()
 
+include(Packaging)
+
 install(FILES
 	${GZ_FILES}
 	DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/openFPGALoader
